@@ -56,9 +56,11 @@ export const TransactionTypeContainer = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
 
-    button{
+    `;
+
+    export const RadioBox = styled.button`
         height: 4rem;
-        border: 1px;
+        border: 1px solid #d7d7d7;
         border-radius: 0.25rem;
 
         background: transparent;
@@ -67,7 +69,7 @@ export const TransactionTypeContainer = styled.div`
         align-items: center;
         justify-content:center;
 
-        transition
+        transition:border-color 0.2s;
 
         &:hover{
             border-color: ${darken(0.1, '#d7d7d7')};
@@ -83,5 +85,4 @@ export const TransactionTypeContainer = styled.div`
             margin-left: 1rem;
             font-size: 1rem;
             color: var(--text-title);
-        }
-    }`
+        }`
