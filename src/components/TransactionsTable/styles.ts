@@ -14,7 +14,6 @@ export const Container = styled.div`
             padding: 1rem 2rem;
             text-align: left;
             line-height:1.5rem;
-           
         }
 
         td{
@@ -27,6 +26,7 @@ export const Container = styled.div`
             &:first-child{
                 color: var(--text-title);
             }
+
             &.deposit{
                 color:var(--green);
             }
@@ -35,11 +35,5 @@ export const Container = styled.div`
                 color: var(--red);
             }
         }
-
-
-
-        
     }
-
-
 `;
