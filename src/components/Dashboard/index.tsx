@@ -5,8 +5,8 @@ import { TransactionTable } from "../TransactionsTable";
 export function Dashboard(){
     return(
         <Container>
-            <TransactionTable/>
             <Sumary/>
+            <TransactionTable/>
         </Container>
     );
 }
